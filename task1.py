@@ -10,7 +10,6 @@ juice = pulp.LpVariable('juice', lowBound=0, cat='Integer')
 model += 2 * lemonade + juice <= 100
 model += 1 * lemonade <= 50
 model += 1 * lemonade <= 30
-model += 1 * lemonade <= 40
 model += 2 * juice <= 40
 
 #задаємо цільову функцію
